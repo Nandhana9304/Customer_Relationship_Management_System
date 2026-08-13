@@ -20,7 +20,7 @@ public class ContactServlet extends HttpServlet {
         String subject = request.getParameter("subject");
         String message = request.getParameter("message");
 
-        final String fromEmail = "malavikamanoj640@gmail.com";
+        final String fromEmail = "yourmail@gmail.com";
         final String password = "lrxv xzdk zfvj ycra";
 
         Properties props = new Properties();
